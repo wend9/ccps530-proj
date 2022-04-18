@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  
+<style media="screen">
+  h2{
+    color: green;
+    font-size: 35px;
+  }
+</style>
+  </head>
+  <body>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+    <div class="">
+      <h2>Dictionary Definition</h2>
+
+    </div>
+    <div id="map"></div>
+    <div class="container">
+      <div class="row">
+        <h3>Enter word to search in dictionary</h3>
+        <span id="error"></span>
+
+      </div>
+
+    <form action="/next" method="POST">
+      <div class="form-group" id="rowDiv">
+        <input type="text" name="word" id="word" class="form-control" placeholder="Word">
+        <button type="button" name="button" id="submitWord">Search Word</button>
+
+      </div>
+
+    </form>
+
+    </div>
+<script type="text/javascript" src="/Users/willame_01/Desktop/newproj/index.js">
+
+</script>
+  </body>
+</html>
